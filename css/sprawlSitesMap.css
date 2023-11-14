@@ -1,0 +1,54 @@
+.sprawlSitesMap {
+    background-color: rgb(25, 37, 99);
+    border-bottom: 3px solid #000000;
+    height: 400px;
+    width: 100%;
+}
+
+.markerContainer {
+    width: 400px; 
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-image: url('../img/paper.jpg');
+}
+
+.markerTitle {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+
+}
+
+.markerLowerContainer {
+    display: flex;
+    align-items: center; 
+}
+
+.markerPhoto {
+    width: 120px; 
+    height: 120px; 
+    min-width: 120px;
+    min-height: 120px;
+    margin-right: 10px; 
+    border: 1px solid #ccc;
+}
+
+.markerText {
+    flex-grow: 1; 
+    text-align: left;
+    text-indent: 10px;
+    font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+
+}
+
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track, 
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece,
+.gm-style .gm-style-iw-c,
+.gm-style .gm-style-iw-t::after { 
+  background: rgb(0, 0, 0);
+  background-image: url('../img/leaves.jpg');
+}
+
+.gm-style-iw button {color: white;}

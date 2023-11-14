@@ -1,0 +1,22 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.notes-container {
+    animation: fadeIn 4s ease-in-out; 
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+
+.notes-container ul {
+    list-style-type: disc;
+}
+
+.note-character {
+    float: right;
+    font-weight: bold;
+    list-style: none;
+    margin-right: 30px;
+}

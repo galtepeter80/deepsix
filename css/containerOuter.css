@@ -1,0 +1,9 @@
+.containerOuter {
+	min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid #000000;
+    height: 100%;
+    margin: auto;
+    max-width: 1000px;
+    width: 1000px;
+}

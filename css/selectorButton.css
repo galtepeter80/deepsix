@@ -1,0 +1,28 @@
+.selectable-buttons {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .button {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 5px 5px 5px 0px;
+    min-width: 100%;
+    padding: 10px;
+  }
+  
+  .button.selected {
+    background-color: rgb(43, 136, 46);
+    border: 1px solid #3498db;
+    color:black;
+  }
+  

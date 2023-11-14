@@ -1,0 +1,53 @@
+.about-me-page {
+    background-color: rgb(0, 0, 0);
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/St_Louis_night.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 50px);
+    width: 100%;
+}
+
+.about-section {
+    align-items: center; 
+    background-color: #f9f9f9;
+    background-color: antiquewhite;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    display: flex; 
+    margin: 20px;
+    min-height: 200px;
+    opacity: 0;
+    padding: 20px 30px 20px 30px;
+    transition: opacity 3s ease-in-out;
+}
+
+.about-section p {
+    text-indent: 20px;
+}
+
+.about-section.right {
+    justify-content: right;
+}
+
+.about-section.left {
+    justify-content: left;
+}
+
+.about-section.visible {
+    opacity: 1;
+} 
+
+.about-section img {
+    height: auto;
+    margin: 15px; 
+    max-height: 200px;
+}
+
+.about-section img.right {
+    height: auto;
+    margin-left: 20px; 
+}
+.about-section img.left {
+    height: auto;
+    margin-right: 20px; 
+}
